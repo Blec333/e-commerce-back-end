@@ -5,28 +5,28 @@ const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
 // Products belongsTo Category
-Product.belongsTo(Reader, {
+Product.belongsTo(Category, {
   foreignKey: 'category_id',
 });
 
 // Categories have many Products
-Category.hasMany(Reader, {
+Category.hasMany(Product, {
   foreignKey: 'product_id',
 });
 
 // Products belongToMany Tags (through ProductTag)
-Tag.hasMany(Reader, {
-  foreignKey: 'product_id',
+Tag.hasMany(ProductTag, {
+  foreignKey: 'tag_id',
 });
-Product.belongsTo(Reader, {
+ProductTag.belongsTo(Tag, {
   foreignKey: 'tag_id',
 });
 
 // Tags belongToMany Products (through ProductTag)
-Product.hasMany(Reader, {
+Product.hasMany(ProductTag, {
   foreignKey: 'product_id',
 });
-Tag.belongsTo(Reader, {
+Tag.belongsTo(ProductTag, {
   foreignKey: 'product_id',
 });
 

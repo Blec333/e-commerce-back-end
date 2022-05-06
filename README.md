@@ -82,9 +82,9 @@ https://github.com/e-commerce-back-end
 
 ## Video
 
-[![Video](./docs/video.gif)](https://1drv.ms/v/s!AsbwJ61aj9fCjpB5P-PCECzXeUffnQ?e=OYQRj1 "Video")
+[![Video](./docs/video.gif)](https://1drv.ms/v/s!AsbwJ61aj9fCjpEMpelKJ-s61POlvg?e=KYdyrG "Video")
 
-https://1drv.ms/v/s!AsbwJ61aj9fCjpB5P-PCECzXeUffnQ?e=OYQRj1
+https://1drv.ms/v/s!AsbwJ61aj9fCjpEMpelKJ-s61POlvg?e=KYdyrG
 
 ## License
 

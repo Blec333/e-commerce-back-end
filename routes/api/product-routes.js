@@ -84,7 +84,6 @@ router.put('/:id', async (req, res) => {
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
       if (!req.body.tagIds) {return productTags;}
-      // console.log(req.body.tagIds);
       const newProductTags = req.body.tagIds
       .filter((tag_id) => !productTagIds.includes(tag_id))
       .map((tag_id) => {

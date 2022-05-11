@@ -77,7 +77,7 @@ To begin using this site after install requirements:
 
 
 Github Repository
-https://github.com/e-commerce-back-end
+https://github.com/blec333/e-commerce-back-end
 
 
 ## Video
